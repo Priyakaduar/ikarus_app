@@ -1,0 +1,24 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables
+.env
+
+# Ignore Jupyter notebooks (if any are here)
+*.ipynb
+.ipynb_checkpoints/
+
+# Mac/Windows junk files
+.DS_Store
+Thumbs.db
+
+# Ignore database or data temp files (if any)
+*.sqlite3
+*.db
+*.log
+
+# Ignore OS/IDE files
+.vscode/
+.idea/

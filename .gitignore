@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+
+# Top-level node modules (should not be tracked)
+node_modules/
+
+# Jupyter notebooks and checkpoint files
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+
+# Mac/Windows junk files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
