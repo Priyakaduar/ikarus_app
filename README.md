@@ -1,6 +1,6 @@
 # 🛋️ Furniture Recommendation System
 
-An intelligent AI-powered furniture recommendation system using **Vector Search**, **Natural Language Processing**, and **Generative AI** to help users discover furniture products through conversational queries.hi
+An intelligent AI-powered furniture recommendation system using **Vector Search**, **Natural Language Processing**, and **Generative AI** to help users discover furniture products through conversational queries.
 
 ---
 
