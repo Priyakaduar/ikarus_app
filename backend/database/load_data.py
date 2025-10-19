@@ -12,7 +12,8 @@ def load_data_to_pinecone():
 
     # Set path relative to this file (in backend/database/)
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    csv_path = os.path.join(current_dir, 'intern_data_ikarus_processed.csv')
+    csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'intern_data_ikarus_processed.csv')
+
 
     print(f"Looking for CSV at: {csv_path}")
     df = pd.read_csv(csv_path)
