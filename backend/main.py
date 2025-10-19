@@ -20,7 +20,7 @@ app.add_middleware(
 rec_engine = RecommendationEngine()
 desc_gen = DescriptionGenerator()
 import os
-csv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'intern_data_ikarus_processed.csv')
+csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'intern_data_ikarus_processed.csv')
 df = pd.read_csv(csv_path)
 
 
